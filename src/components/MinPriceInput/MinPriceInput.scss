@@ -1,0 +1,28 @@
+.min-price-input {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.price-input {
+    width: 80px;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.save-btn {
+    padding: 5px 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+
+    &:hover {
+        background-color: #27ae60;
+    }
+}

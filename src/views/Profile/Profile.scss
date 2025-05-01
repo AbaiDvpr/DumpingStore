@@ -1,0 +1,38 @@
+.profile-page {
+    padding: 20px;
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 24px;
+        color: #222;
+    }
+    
+    .profile-card {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 24px;
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 24px;
+        }
+
+        .info {
+            h2 {
+                margin-bottom: 8px;
+                color: #333;
+            }
+
+            p {
+                margin: 4px 0;
+                color: #666;
+            }
+        }
+    }
+}
