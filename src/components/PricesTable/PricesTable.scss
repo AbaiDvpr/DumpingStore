@@ -1,10 +1,13 @@
-
 .table-wrapper {
-    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto; // or scroll if you want scrollbar always
+    height: 800px;
 }
 
 .custom-table {
     width: 100%;
+    overflow: scroll;
     border-collapse: collapse;
     font-family: 'Segoe UI', sans-serif;
     color: #fff;

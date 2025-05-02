@@ -1,10 +1,14 @@
 .prices-page {
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
     h1 {
         font-size: 28px;
         margin-bottom: 20px;
         color: #2c3e50;
     }
-
+       
     .content {
         background-color: white;
         padding: 24px;

@@ -7,11 +7,14 @@
                     <th>Фото</th>
                     <th>URL</th>
                     <th>Кол-во</th>
-                    <th>Продажа</th>
+                    <th>my price</th>
+                    <th>market price</th>
+
                     <th>Активный</th>
                     <th>Обновлено</th>
                     <th>Place product</th>
                     <th>Дэмпинг status</th>
+                    <th>min price</th>
 
                     <th>Конкурентная цена</th>
                     <th>Комментарий</th>
@@ -20,10 +23,13 @@
             <tbody>
                 <tr v-for="item in tableData" :key="item.id">
                     <td>{{ item.id }}</td>
-                    <td><img :src="item.photo" alt="Фото" class="thumb" /></td>
-                    <td><a :href="item.url" target="_blank">Открыть</a></td>
+                    <td><img :src="item.url_photo" alt="Фото" class="thumb" /></td>
+                    <td><a :href="item.url_link" target="_blank">Открыть</a></td>
                     <td>{{ item.quantity }}</td>
-                    <td>{{ item.sale_price }} ₸</td>
+                    <td>{{ item.my_price }} ₸</td>
+                    <td>{{ item.market_price }} ₸</td>
+                    
+
                     <td :class="{ active: item.active }">
                         {{ item.active ? 'Да' : 'Нет' }}
                     </td>
